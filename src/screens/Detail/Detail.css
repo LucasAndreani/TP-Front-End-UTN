@@ -42,7 +42,39 @@
     margin: 10px 0;
     color: #777; 
 }
-
+@media (min-width: 360px) and (max-width: 480px) {
+    .detail-container {
+        flex-direction: column;
+    }
+    .detail-product-card {
+        max-width: 100%;
+        margin-bottom: 20px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .detail-right {
+        margin-right: 10px;
+    }
+    .detail-right h2{
+        max-width: 100%;
+        margin-left: 0px;
+        font-size: 10px;
+    }
+    .detail-product-card img {
+        width: 75px;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .detail-product-card h3 {
+        font-size: 15px;
+        margin: 0;
+    }
+    .detail-product-card p {
+        font-size: 11px;
+        margin: 5px 0;
+    }
+    
+}
 
 
 

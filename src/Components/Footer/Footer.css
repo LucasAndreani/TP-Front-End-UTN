@@ -49,3 +49,11 @@
     gap: 2vh;
     cursor: default;
 }
+@media (min-width: 360px) and (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+    }
+    .middle-section-footer {
+        padding: 10px;
+    }
+}

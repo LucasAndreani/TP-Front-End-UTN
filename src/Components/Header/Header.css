@@ -83,3 +83,42 @@
     position: relative;
     margin-left: 93px;
 }
+    @media (min-width: 360px) and (max-width: 480px) {
+        .mew-logo {
+        width: 100px;
+        height: 80px;
+        margin-top: 10px;
+        margin-left: 0px;
+        position: relative;
+        }
+        .middle-section-header {
+        display: none;
+        }
+        .right-section-header {
+        width: 140px;
+        margin-right: 10px;
+        }
+        .black-market {
+        font-size: 20px;
+        }
+        .home {
+        font-size: 16px;
+        }
+        .cart-icon {
+        height: 18px;
+        }
+        .cart-word {
+        margin-top: 30px;
+        margin-left: 118px;
+        font-size: 12px;
+        }
+        .contact-word {
+        margin-top: 30px;
+        margin-left: 22px;
+        font-size: 12px;
+        }
+        .contact-icon {
+        height: 18px;
+        margin-left: 35px;
+        }
+    }
