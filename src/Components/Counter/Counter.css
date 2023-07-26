@@ -1,0 +1,31 @@
+.add-counter {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.add-counter button {
+    width: 30px;
+    padding: 5px;
+    background-color: #8b0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.add-counter span {
+    margin: 0 10px;
+    font-size: 16px;
+}
+.add-counter button.cart-button {
+    background-color: #8b0000; 
+    color: #f8f8f8; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px; 
+    margin-left: 20px;
+    font-size: 15px;
+    flex: 1;
+}
